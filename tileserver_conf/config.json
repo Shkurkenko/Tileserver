@@ -1,0 +1,52 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    },
+    "serveStaticMaps": true,
+    "pbfAlias": "pbf"
+  },
+  "styles": {
+    "test-style": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    },
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    },
+    "dark-matter": {
+      "style": "dark-matter/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    },
+    "maptiler-3d-gl-style": {
+      "style": "maptiler-3d-gl-style/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    },
+    "osm-3d-gl-style-dark": {
+      "style": "osm-3d-gl-style-dark/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
+    }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "russia.mbtiles"
+    }
+  }
+}
